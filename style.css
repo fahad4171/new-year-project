@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/*----------HEADER------*/
+.header {
+    background-image: url(images/banner/banner2.png);
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.banner {
+    text-align: right;
+    padding-left: 815px;
+    padding-right: 230px;
+    padding-top: 180px;
+}
+
+h1 {
+    color: #615e5e;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom: 24px;
+}
+
+.banner-description {
+    color: #615e5e;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 26px;
+    margin-bottom: 20px;
+
+}
+
+.banner-button {
+    background: #5bada2;
+    border-radius: 5px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+    border: none;
+}
+
+/*--------Failure Section--------*/
+
+.failure-section {
+    display: flex;
+    margin: 100px 200px;
+    align-items: center;
+    gap: 90px;
+    
+}
+
+.failure-list {
+    list-style: none;
+}
+.list-icon {
+    color: #16D887;
+    height: 15px;
+    padding-right: 16px;
+}
+.girl-img{
+    
+    width: 451px;
+    height: auto;
+}
+
+.failure-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    padding-bottom: 24px;
+    padding-left: 40px;
+    
+}
+.failure-desciption {
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+    
+}
+
+.failure-list {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    
+}
+ 
+
+/*-----Plan Section----------*/
+
+.plan-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.plan-container {
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.plan {
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: px;
+}
+
+.plan-section {
+    margin: auto 200px;
+    
+}
+.plan-name {
+    font-weight: 700;
+    font-size: 20px;
+    color: #151414;
+    text-align: center;
+    margin-bottom: 8px;
+}
+.plan-description {
+    font-weight: 500;
+    font-size: 15px;
+    color: #737272;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.watch-container {
+    background-image: linear-gradient(90deg, #974d87 0%, rgba(0, 95, 172, 0) 100%), url(images/watch.png); 
+    background-position: center;
+    height: 220px;
+    margin-bottom: 50px;
+    border-radius: 8px;
+    padding-top: 50px;
+    padding-right: 500px;
+    padding-left: 65px;
+ 
+}
+.watch-title {
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    text-align: left;
+    padding-bottom: 30px;
+}
+
+/*-------About Me section*/
+
+.about-section {
+    margin: 100px 200px;
+    align-items: center;
+    gap: 90px;
+}
+.about-container {
+    display: flex;
+    margin-top: 30px;
+}
+
+.about-title {
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+
+}
+
+.about-description{
+    font-weight: 500;
+    color: #3b3838;
+    font-size: 22px;
+    line-height: 40px;
+    margin-top: 100px;
+    padding-bottom: 16px;
+    padding-left: 40px;
+
+}
+
+/*-----Footer Section----*/
+.footer-container {
+    display: flex;
+    background:#0c0b0b;
+    height: 400px;
+    padding-top: 130px;
+    gap: 350px;
+}
+.future {
+    padding-left: 200px;
+}
+.future-title {
+    font-weight: 700;
+    font-size: 40px;
+    padding-bottom: 20px;
+    color: #FFFFFF;
+}
+
+.future-decription {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    padding-bottom: 20px;
+    
+}
+
+.form {
+    padding-right: 230px;
+}
+.form-title {
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    padding-bottom: 30px;
+}
+.email {
+    width: 100%;
+    padding: 18px 30px;
+    border: 2px solid white;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.form-btn {
+    background: #FFFFFF;
+    border-radius: 8px;
+    color:#bf6516;
+    font-weight: 600;
+    font-size: 18px;
+    height: 50px;
+    border: 2px solid #bf6516;
+}
+
